@@ -5,14 +5,22 @@ ion-header {
   }
 }
 
-ion-content {
-  .main-header {
-    height: 45vh;
-    width: 150%;
-    background: linear-gradient(90deg, var(--ion-color-teriary) 10%, var(--ion-color-primary) 100%);
-    box-shadow: 0.1px 10px var(--ion-color-light);
-    border-radius: 0 0 50% 50%;
-    margin-left: -15vh;
-    margin-top: -60px;
+// ion-content {
+//   .main-header {
+//     height: 45vh;
+//     width: 150%;
+//     background: linear-gradient(90deg, var(--ion-color-teriary) 10%, var(--ion-color-primary) 100%);
+//     box-shadow: 0.1px 10px var(--ion-color-light);
+//     border-radius: 0 0 50% 50%;
+//     margin-left: -15vh;
+//     margin-top: -60px;
+//   }
+// }
+
+ion-content{
+  --background : #F0F4FD;
+
+  p{
+   font-weight: 300;
   }
 }
